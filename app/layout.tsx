@@ -59,7 +59,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
 
   title: {
-    default: `${site.name} | Web Developer & Solutions Architect in Port Harcourt`,
+    default: `${site.name} | Web Developer & Solutions Architect`,
     template: `%s | ${site.name}`,
   },
 
