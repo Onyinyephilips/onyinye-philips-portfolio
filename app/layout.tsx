@@ -53,13 +53,13 @@ const mono = IBM_Plex_Mono({
 });
 
 const description =
-  "Onyinye Philips is a Solutions Architect and Web Developer based in Port Harcourt, Nigeria. He builds high-performing websites and scalable digital solutions using for businesses worldwide.";
+  "Onyinye Philips is a Solutions Architect and Web Developer based in Port Harcourt, Nigeria. He builds high-performing websites and scalable digital solutions for businesses worldwide.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
 
   title: {
-    default: `${site.name} | Web Developer & Solutions Architect`,
+    default: `${site.name} | Building websites that captivate, convert, and scale your business`,
     template: `%s | ${site.name}`,
   },
 

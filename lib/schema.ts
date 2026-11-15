@@ -26,6 +26,7 @@ export const personSchema = {
     "Frontend Development",
     "E-commerce Development",
     "Website Performance",
+    "Business Websites",
   ],
   sameAs: [site.linkedin],
 };
