@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: hidden; }
+body { background: #080A0B; color: #F5F5F5; overflow-x: clip; -webkit-font-smoothing: antialiased; }
+::selection { background: #3DE078; color: #080A0B; }
+:focus-visible { outline: 2px solid #3DE078; outline-offset: 4px; }
+
+@layer components {
+  .eyebrow { @apply font-mono text-xs uppercase tracking-[0.18em] text-accent; }
+  .display { @apply font-display font-bold uppercase leading-[0.92] tracking-[-0.04em]; }
+  .wrap { @apply mx-auto w-full max-w-[1500px] px-6 md:px-12; }
+  .section { @apply relative py-28 md:py-44; }
+  .btn { @apply inline-flex items-center gap-3 border px-7 py-4 font-mono text-xs uppercase tracking-[0.16em] transition-colors duration-300; }
+}
+.stroke-text {
+  color: transparent;
+  -webkit-text-stroke: 1px #252B2D;
+}
