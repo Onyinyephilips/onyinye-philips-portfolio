@@ -82,7 +82,7 @@ export const projects: Project[] = [
     description:
       "Built a clean, research-focused personal website that presents academic work, publications, and professional experience. Prioritised clear information architecture, typography, and intuitive navigation to make complex research accessible.",
     technologies: ["WordPress", "Tailwind"],
-    url: "https://shopmagali.com/",
+    url: "https://guscooney.com/",
     country: { name: "USA", flag: "🇺🇸" },
   },
   {
